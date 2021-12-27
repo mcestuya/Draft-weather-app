@@ -100,14 +100,14 @@ a {
 
 .menu {
   position: relative;
-  margin-top: 15%;
+  margin-top: 10%;
   left: 50%;
   width: 0px;
   transform: translate(-50%, 55%);
 }
 
 .toggle {
-  display: none;
+  display: relative;
 }
 
 .toggle + .style {
@@ -119,11 +119,13 @@ a {
   z-index: 5;
   display: block;
   max-width: 200px;
+  line-height: 10px;
   margin-bottom: 0;
-  background: #ff0000;
+  background: #7e4ccb;
   color: #fff;
   font-size: 2.5em;
-  padding-top: 75px;
+  padding-top: 50px;
+  font-weight: 700;
   text-align: center;
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -189,7 +191,7 @@ a {
 
 .toggle ~ .tab {
   position: absolute;
-  background: #ff0000;
+  background: #d3d2f1;
   color: #fff;
   width: 120px;
   height: 120px;
